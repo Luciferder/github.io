@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+
+  <meta name="description" content="AntClu- Any-time Trajectory Clustering via Dynamic Trend Representation"/>
+
+
+
+
+  <meta name="keywords" content="trajectory, Chongming Gao" />
+
+
+
+
+
+
+
+
+
+
+    <link rel="alternate" href="/default" title="Chongming Gao">
+
+
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=4.0.0" />
+
+
+
+<link rel="canonical" href="http://eagerming.com/2018/05/08/AntClu-Zhao/"/>
+
+
+<link rel="stylesheet" type="text/css" href="/css/style.css?v=4.0.0" />
+
+
+
+
+
+
+    
+
+
+
+    <script id="baidu_push">
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+
+
+
+
+
+
+
+    <title> AntClu- Any-time Trajectory Clustering via Dynamic Trend Representation - Chongming Gao </title>
+</head>
+
+<body>
+
+<div class="container" id="mobile-panel">
+    <header id="header" class="header"><div class="logo-wrapper">
+  
+</div>
+
+<nav class="site-navbar">
+  
+    <ul id="menu" class="menu">
+      
+        <li class="menu-item">
+          <a class="menu-item-link" href="/">
+            
+            
+              Home
+            
+          </a>
+        </li>
+      
+        <li class="menu-item">
+          <a class="menu-item-link" href="/about">
+            
+            
+              About
+            
+          </a>
+        </li>
+      
+        <li class="menu-item">
+          <a class="menu-item-link" href="/research">
+            
+            
+              research
+            
+          </a>
+        </li>
+      
+        <li class="menu-item">
+          <a class="menu-item-link" href="/resume/chongming-resume.pdf">
+            
+            
+              Resume
+            
+          </a>
+        </li>
+      
+    </ul>
+  
+</nav>
+
+    </header>
+
+    <main id="main" class="main">
+        <div class="content-wrapper">
+            <div id="content" class="content">
+                
+  
+  <article class="post">
+    
+      
+        
+          
+        
+          
+        
+      
+
+      
+        
+          
+        
+        
+          
+            
+              
+            
+          
+        
+        
+        
+             
+             
+            
+          
+        
+      
+    
+
+    
+    
+  <div class="post-toc" id="post-toc">
+    <h2 class="post-toc-title">Contents</h2>
+    <div class="post-toc-content">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#AntClu-Any-time-Trajectory-Clustering-via-Dynamic-Trend-Representation"><span class="toc-text">AntClu: Any-time Trajectory Clustering via Dynamic Trend Representation</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Yi-Zhao-Chongming-Gao-Ruizhi-Wu-Qinli-Yang-Junming-Shao"><span class="toc-text">Yi Zhao, Chongming Gao, Ruizhi Wu, Qinli Yang, Junming Shao</span></a></li></ol></li></ol></li></ol>
+    </div>
+  </div>
+
+
+    <div class="post-content">
+      
+        <h2 id="AntClu-Any-time-Trajectory-Clustering-via-Dynamic-Trend-Representation"><a href="#AntClu-Any-time-Trajectory-Clustering-via-Dynamic-Trend-Representation" class="headerlink" title="AntClu: Any-time Trajectory Clustering via Dynamic Trend Representation"></a>AntClu: Any-time Trajectory Clustering via Dynamic Trend Representation</h2><h4 id="Yi-Zhao-Chongming-Gao-Ruizhi-Wu-Qinli-Yang-Junming-Shao"><a href="#Yi-Zhao-Chongming-Gao-Ruizhi-Wu-Qinli-Yang-Junming-Shao" class="headerlink" title="Yi Zhao, Chongming Gao, Ruizhi Wu, Qinli Yang, Junming Shao"></a>Yi Zhao, <strong><u>Chongming Gao</u></strong>, Ruizhi Wu, Qinli Yang, Junming Shao</h4><p><img src="/2018/05/08/AntClu-Zhao/antclu.png" alt="antclu"></p>
+<abstract>In recent years, clustering trajectory data has been extensively explored to discover similar patterns of moving objects. Existing approaches, often cluster whole life-span trajectories into several groups according to some trajectory similarities such as dynamic time warping and edit distance. However, the trajectory of a given moving object is dynamic and evolved over time. Exploring the dynamic grouping patterns of moving objects (e.g., the expanding, shrinking, emerging or disappearing of clusters) over time thus offers a more dedicated venue to analyze the evolved moving patterns. To address this problem, in this paper, we propose a new any-time trajectory clustering algorithm, called AntClu, building upon the concepts of automatic dynamic trend representation and density-based online clustering. The basic idea is to learn a dynamic representation for each trajectory to capture “current trend”, and then cluster these “trends” in an online setting. Therefore, AntClu is capable of clustering trajectories at any time, and time-changing clusters are available whenever the request comes. More importantly, unlike traditional data stream clustering approaches or online learning, AntClu is also independent of time-window. The experimental results on real-world data sets further demonstrate its effectiveness and efficiency.</abstract>
+
+<div><inf>Prepared to be submitted. <attached> [<a href="/2018/05/08/AntClu-Zhao/AntClu.pdf">PDF</a>]</attached></inf></div>
+      
+    </div>
+
+    
+      
+      
+
+      
+      
+    
+
+    
+      
+        
+          
+            
+              
+            
+          
+        
+        
+        
+      
+    
+
+  </article>
+
+
+            </div>
+            
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+    </main>
+
+</div>
+
+    <footer id="footer" class="footer">
+
+  <div class="social-links">
+    
+      
+        
+          
+        
+          
+        
+      
+    
+
+    
+      
+    
+      
+      
+    
+      
+    
+
+
+
+  </div>
+
+
+<div class="copyright">
+  <span class="power-by">
+    Created & Maintained by Eagerming, with <a class="hexo-link" href="https://hexo.io" target="view_window">Hexo</a>
+  </span>
+
+  
+  
+    
+    
+  
+
+  
+    
+    
+    
+      
+    
+    
+
+    
+      
+    
+    
+  
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+        <i class="iconfont icon-up"></i>
+    </div>
+
+
+
+  
+  
+
+  
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+  
+    <script type="text/javascript" src="/lib/jquery/jquery-3.1.1.min.js"></script>
+  
+
+  
+
+
+<script type="text/javascript" src="/js/src/even.js?v=4.0.0"></script>
+<script type="text/javascript" src="/js/src/bootstrap.js?v=4.0.0"></script>
+
+</body>
+</html>

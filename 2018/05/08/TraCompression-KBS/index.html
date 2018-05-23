@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+
+  <meta name="description" content="Semantic Trajectory Compression via Multi-resolution Synchronization-based Clustering"/>
+
+
+
+
+  <meta name="keywords" content="trajectory, Chongming Gao" />
+
+
+
+
+
+
+
+
+
+
+    <link rel="alternate" href="/default" title="Chongming Gao">
+
+
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=4.0.0" />
+
+
+
+<link rel="canonical" href="http://eagerming.com/2018/05/08/TraCompression-KBS/"/>
+
+
+<link rel="stylesheet" type="text/css" href="/css/style.css?v=4.0.0" />
+
+
+
+
+
+
+    
+
+
+
+    <script id="baidu_push">
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+
+
+
+
+
+
+
+    <title> Semantic Trajectory Compression via Multi-resolution Synchronization-based Clustering - Chongming Gao </title>
+</head>
+
+<body>
+
+<div class="container" id="mobile-panel">
+    <header id="header" class="header"><div class="logo-wrapper">
+  
+</div>
+
+<nav class="site-navbar">
+  
+    <ul id="menu" class="menu">
+      
+        <li class="menu-item">
+          <a class="menu-item-link" href="/">
+            
+            
+              Home
+            
+          </a>
+        </li>
+      
+        <li class="menu-item">
+          <a class="menu-item-link" href="/about">
+            
+            
+              About
+            
+          </a>
+        </li>
+      
+        <li class="menu-item">
+          <a class="menu-item-link" href="/research">
+            
+            
+              research
+            
+          </a>
+        </li>
+      
+        <li class="menu-item">
+          <a class="menu-item-link" href="/resume/chongming-resume.pdf">
+            
+            
+              Resume
+            
+          </a>
+        </li>
+      
+    </ul>
+  
+</nav>
+
+    </header>
+
+    <main id="main" class="main">
+        <div class="content-wrapper">
+            <div id="content" class="content">
+                
+  
+  <article class="post">
+    
+      
+        
+          
+        
+          
+        
+      
+
+      
+        
+          
+        
+        
+          
+            
+              
+            
+          
+        
+        
+        
+             
+             
+            
+          
+        
+      
+    
+
+    
+    
+  <div class="post-toc" id="post-toc">
+    <h2 class="post-toc-title">Contents</h2>
+    <div class="post-toc-content">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Semantic-Trajectory-Compression-via-Multi-resolution-Synchronization-based-Clustering"><span class="toc-text">Semantic Trajectory Compression via Multi-resolution Synchronization-based Clustering</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Chongming-Gao-Yi-Zhao-Ruizhi-Wu-Qinli-Yang-Junming-Shao"><span class="toc-text">Chongming Gao, Yi Zhao, Ruizhi Wu, Qinli Yang, Junming Shao</span></a></li></ol></li></ol></li></ol>
+    </div>
+  </div>
+
+
+    <div class="post-content">
+      
+        <h2 id="Semantic-Trajectory-Compression-via-Multi-resolution-Synchronization-based-Clustering"><a href="#Semantic-Trajectory-Compression-via-Multi-resolution-Synchronization-based-Clustering" class="headerlink" title="Semantic Trajectory Compression via Multi-resolution Synchronization-based Clustering"></a>Semantic Trajectory Compression via Multi-resolution Synchronization-based Clustering</h2><h4 id="Chongming-Gao-Yi-Zhao-Ruizhi-Wu-Qinli-Yang-Junming-Shao"><a href="#Chongming-Gao-Yi-Zhao-Ruizhi-Wu-Qinli-Yang-Junming-Shao" class="headerlink" title="Chongming Gao, Yi Zhao, Ruizhi Wu, Qinli Yang, Junming Shao"></a><strong><u>Chongming Gao</u></strong>, Yi Zhao, Ruizhi Wu, Qinli Yang, Junming Shao</h4><p><img src="/2018/05/08/TraCompression-KBS/TraCompression2.png" alt="image-TraCompression"></p>
+<abstract>With the pervasive use of location-aware devices and rapid development of location sensing technology, trajectory data has been generated in diverse fields. How to store and manage these large amounts of data is a non-trivial task, and thus trajectory compression has gained increasing attention in recent years. As traditional compression algorithms often treat trajectories as sequences of lines in geometric space, the global statistics and the semantics embedded in trajectories are not well considered. Inspired by the powerful concept of synchronization, in this paper we introduce a new semantic trajectory compression approach, called \textsc{CascadeSync}, to yield multi-resolution trajectory abstractions with semantic enrichment. The basic idea is to introduce a multi-resolution synchronization-based clustering model to produce semantic regions-of-interest (ROIs) in a hierarchical way. Specifically, by imposing constraints on points with semantic information in the interaction model, all neighboring points with similar semantics will group together automatically. Afterwards, each trajectory is compressed as a sequence of semantic ROIs and is further represented as a hierarchical ROI network. Beyond, we further extend our model on the data stream setting. The extensive experiments on synthetic data and four real-world data sets have demonstrated the effectiveness and efficiency of our proposed model.</abstract>
+
+<div><inf>Submitted to <em>Knowledge-Based Systems</em> (<strong>KBS</strong>), still under review. <attached> [<a href="/2018/05/08/TraCompression-KBS/Compression_KBS.pdf">PDF</a>]</attached></inf></div>
+      
+    </div>
+
+    
+      
+      
+
+      
+      
+    
+
+    
+      
+        
+          
+            
+              
+            
+          
+        
+        
+        
+      
+    
+
+  </article>
+
+
+            </div>
+            
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+    </main>
+
+</div>
+
+    <footer id="footer" class="footer">
+
+  <div class="social-links">
+    
+      
+        
+          
+        
+          
+        
+      
+    
+
+    
+      
+    
+      
+      
+    
+      
+    
+
+
+
+  </div>
+
+
+<div class="copyright">
+  <span class="power-by">
+    Created & Maintained by Eagerming, with <a class="hexo-link" href="https://hexo.io" target="view_window">Hexo</a>
+  </span>
+
+  
+  
+    
+    
+  
+
+  
+    
+    
+    
+      
+    
+    
+
+    
+      
+    
+    
+  
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+        <i class="iconfont icon-up"></i>
+    </div>
+
+
+
+  
+  
+
+  
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+  
+    <script type="text/javascript" src="/lib/jquery/jquery-3.1.1.min.js"></script>
+  
+
+  
+
+
+<script type="text/javascript" src="/js/src/even.js?v=4.0.0"></script>
+<script type="text/javascript" src="/js/src/bootstrap.js?v=4.0.0"></script>
+
+</body>
+</html>
