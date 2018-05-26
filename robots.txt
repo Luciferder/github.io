@@ -1,5 +1,6 @@
 User-agent: *
 Disallow: /tags/
+Disallow: /archives/
 Disallow: /page/
 Disallow: /categories/
 Disallow: /research/
