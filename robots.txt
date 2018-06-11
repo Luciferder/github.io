@@ -1,10 +1,4 @@
 User-agent: *
 Disallow: /tags/
 Disallow: /archives/
-Disallow: /page/
 Disallow: /categories/
-Disallow: /research/
-Disallow: /resume/
-Disallow: /2018/
-Disallow: /source/
-Disallow: /*.pdf$
