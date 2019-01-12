@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1545793896 "chongming-resume.tex" "chongming-resume.pdf" "chongming-resume" 1545793898
+["pdflatex"] 1547284227 "chongming-resume.tex" "chongming-resume.pdf" "chongming-resume" 1547284259
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1480098668 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
@@ -168,9 +168,9 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1523934492 2717033 f61a5287d9c22a39a74f1979fe3f905c ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1526980982 4220280 4a2ba4d38c285e0d95683f8d3f3b2e7a ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "chongming-resume.aux" 1545793897 1043 0786b761473202a76feadda014f7d274 ""
-  "chongming-resume.out" 1545793897 599 10a8cff1b62a354d138d0def7d1fb3b5 ""
-  "chongming-resume.tex" 1545793896 11031 5d7f0b3fa2a55ad8a44cb3a9475cace8 ""
+  "chongming-resume.aux" 1547284228 1043 0786b761473202a76feadda014f7d274 ""
+  "chongming-resume.out" 1547284228 599 10a8cff1b62a354d138d0def7d1fb3b5 ""
+  "chongming-resume.tex" 1547284227 11736 412492cf8f29668d056496add17c4022 ""
   "moderncv1.cls" 1527669456 30276 417c83091dff6ce29aefecdbff51a3b0 ""
   "moderncvbodyi.sty" 1438099736 7263 b0eec674e8a364780faf2f7d5efa2dbe ""
   "moderncvcollection.sty" 1438099736 3390 d797a6d60ef49f5acd2d573a9a4ba418 ""
@@ -181,7 +181,7 @@
   "moderncvstyleclassic.sty" 1438099736 1964 09e7a22625a7ab6a76c5e546d8d554f1 ""
   "tweaklist.sty" 1438099736 1966 8ce3a021c0bc6369db88faeddf828d71 ""
   (generated)
-  "chongming-resume.aux"
   "chongming-resume.pdf"
   "chongming-resume.out"
   "chongming-resume.log"
+  "chongming-resume.aux"
