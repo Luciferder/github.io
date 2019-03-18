@@ -4,14 +4,14 @@
 
     
   <url>
-    <loc>http://eagerming.com/2018/05/08/SemiSync-Zhang/</loc>
-    <lastmod>2019-01-12T08:59:46.000Z</lastmod>
+    <loc>http://eagerming.com/2019/01/11/BLOMA-DASFAA/</loc>
+    <lastmod>2019-03-18T03:25:46.518Z</lastmod>
     <data>
         <display>
-        <title>SemiSync Semi-supervised Clustering by Synchronization</title>
-        <pubTime>2018-05-08T06:04:58.000Z</pubTime>
+        <title>BLOMA Explain Collaborative Filtering via Boosted Local Rank-One Matrix Approximation</title>
+        <pubTime>2019-01-11T06:04:58.000Z</pubTime>
         
-        <tag>clustering</tag>
+        <tag>recommendation</tag>
          
          
            
@@ -21,14 +21,31 @@
 
     
   <url>
-    <loc>http://eagerming.com/2019/01/11/BLOMA-DASFAA/</loc>
-    <lastmod>2019-01-12T08:59:14.000Z</lastmod>
+    <loc>http://eagerming.com/2018/05/08/TraCompression-KBS/</loc>
+    <lastmod>2019-03-18T03:25:45.044Z</lastmod>
     <data>
         <display>
-        <title>BLOMA Explain Collaborative Filtering via Boosted Local Rank-One Matrix Approximation</title>
-        <pubTime>2019-01-11T06:04:58.000Z</pubTime>
+        <title>Semantic Trajectory Compression via Multi-resolution Synchronization-based Clustering</title>
+        <pubTime>2018-05-08T06:04:58.000Z</pubTime>
         
-        <tag>recommendation</tag>
+        <tag>trajectory</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://eagerming.com/2018/05/08/SemiSync-Zhang/</loc>
+    <lastmod>2019-01-12T08:59:46.000Z</lastmod>
+    <data>
+        <display>
+        <title>SemiSync Semi-supervised Clustering by Synchronization</title>
+        <pubTime>2018-05-08T06:04:58.000Z</pubTime>
+        
+        <tag>clustering</tag>
          
          
            
@@ -79,23 +96,6 @@
     <data>
         <display>
         <title>Semantic Trajectory Representation and Retrieval via Hierarchical Embedding</title>
-        <pubTime>2018-05-08T06:04:58.000Z</pubTime>
-        
-        <tag>trajectory</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://eagerming.com/2018/05/08/TraCompression-KBS/</loc>
-    <lastmod>2018-05-23T12:40:01.000Z</lastmod>
-    <data>
-        <display>
-        <title>Semantic Trajectory Compression via Multi-resolution Synchronization-based Clustering</title>
         <pubTime>2018-05-08T06:04:58.000Z</pubTime>
         
         <tag>trajectory</tag>
