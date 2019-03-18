@@ -4,6 +4,23 @@
 
     
   <url>
+    <loc>http://eagerming.com/2018/05/08/SC-Zhang/</loc>
+    <lastmod>2019-03-18T03:26:48.566Z</lastmod>
+    <data>
+        <display>
+        <title>Towards Robust Arbitrarily Oriented Subspace Clustering</title>
+        <pubTime>2018-05-08T06:04:58.000Z</pubTime>
+        
+        <tag>clustering</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://eagerming.com/2019/01/11/BLOMA-DASFAA/</loc>
     <lastmod>2019-03-18T03:25:46.518Z</lastmod>
     <data>
@@ -43,23 +60,6 @@
     <data>
         <display>
         <title>SemiSync Semi-supervised Clustering by Synchronization</title>
-        <pubTime>2018-05-08T06:04:58.000Z</pubTime>
-        
-        <tag>clustering</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://eagerming.com/2018/05/08/SC-Zhang/</loc>
-    <lastmod>2019-01-12T08:18:21.000Z</lastmod>
-    <data>
-        <display>
-        <title>Towards Robust Arbitrarily Oriented Subspace Clustering</title>
         <pubTime>2018-05-08T06:04:58.000Z</pubTime>
         
         <tag>clustering</tag>
