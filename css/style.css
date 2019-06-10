@@ -1455,13 +1455,13 @@ body {
       padding-top: 1px; }
 
 .home-page {
-  background-image: url("/photos/photo_1937x1453.jpg");
+  background-image: url("http://cdn.chongminggao.top/background/photo_1937x1453.jpg");
   background-size: cover;
   height: 700px;
   width: 960px; }
 
 .about-page {
-  background-image: url("/photos/profile_white.jpg");
+  background-image: url("http://cdn.chongminggao.top/background/profile_white.jpg");
   background-repeat: no-repeat;
   background-size: 520px;
   background-position: left bottom;
