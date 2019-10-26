@@ -4,6 +4,23 @@
 
     
   <url>
+    <loc>http://yoursite.com/2018/05/08/Junliang-ICDM19/</loc>
+    <lastmod>2019-10-26T17:19:48.019Z</lastmod>
+    <data>
+        <display>
+        <title>Generating Reliable Friends via Adversarial Training to Improve Social Recommendation</title>
+        <pubTime>2018-05-08T06:04:58.000Z</pubTime>
+        
+        <tag>recommendation</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2018/05/08/SC-Zhang/</loc>
     <lastmod>2019-10-26T17:14:43.312Z</lastmod>
     <data>
@@ -27,23 +44,6 @@
         <display>
         <title>BLOMA Explain Collaborative Filtering via Boosted Local Rank-One Matrix Approximation</title>
         <pubTime>2019-01-11T06:04:58.000Z</pubTime>
-        
-        <tag>recommendation</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2018/05/08/Junliang-ICDM19/</loc>
-    <lastmod>2019-10-26T17:11:25.620Z</lastmod>
-    <data>
-        <display>
-        <title>Generating Reliable Friends via Adversarial Training to Improve Social Recommendation</title>
-        <pubTime>2018-05-08T06:04:58.000Z</pubTime>
         
         <tag>recommendation</tag>
          
