@@ -287,11 +287,11 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmss12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmsso10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmss8.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/zapfchan/pzcmi8t.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/zapfchan/pzcmi8r.tfm
 INPUT /usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmss8.tfm
 INPUT chongming-resume.aux
 INPUT ./chongming-resume.out
 INPUT ./chongming-resume.out

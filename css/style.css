@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(http://fonts.lug.ustc.edu.cn/css?family=Lato:100,300,400,300italic|Vollkorn:400italic,400);
+@import url(local.google.fonts.css);
 @font-face {
   font-family: 'Chancery';
   src: url("../fonts/chancery/apple-chancery-webfont.eot");
@@ -1374,6 +1374,7 @@ h6 {
 body {
   -webkit-font-smoothing: subpixel-antialiased; }
 
+/*@import url(http://fonts.lug.ustc.edu.cn/css?family=Lato:100,300,400,300italic|Vollkorn:400italic,400);*/
 .basic-info {
   position: absolute;
   right: 20px;
@@ -1403,56 +1404,94 @@ body {
 .envelope:before {
   content: "\e605"; }
 
-.about-me-1 {
-  position: absolute;
-  left: 30px;
-  top: 60px;
-  width: 540px; }
-  .about-me-1 .section {
-    margin: 40px 5px 10px 5px; }
-  .about-me-1 h1 {
+/*.about-me-1 {
+  .section {
+    margin: 40px 5px 10px 5px;
+  }
+  h1 {
     text-transform: uppercase;
     font-size: 18px;
     margin-bottom: -8px;
-    border-top: 2px solid #333; }
-    .about-me-1 h1 span {
+    border-top: 2px solid #333;
+
+    span {
       position: relative;
       top: -13px;
       background-color: white;
-      padding-right: 5px; }
-  .about-me-1 ul, .about-me-1 p {
+      padding-right: 5px;
+    }
+  }
+
+  position: absolute;
+  left: 30px;
+  top: 60px;
+  width: 540px;
+
+  ul,p {
     margin-top: 0px;
     color: #333;
-    font-weight: 300; }
-
+    font-weight: 300;
+  }
+}*/
 .about-me {
   position: absolute;
   right: 30px;
   top: 30px;
   width: 366.72px; }
-  .about-me .section {
-    margin: 40px 5px 10px 5px; }
-  .about-me h1 {
-    text-transform: uppercase;
-    font-size: 18px;
-    margin-bottom: -8px;
-    border-top: 2px solid #333; }
-    .about-me h1 span {
-      position: relative;
-      top: -13px;
-      background-color: white;
-      padding-right: 5px; }
-  .about-me ul, .about-me p, .about-me table {
-    margin-top: 0px;
-    color: #333;
-    font-weight: 300; }
-    .about-me ul td, .about-me p td, .about-me table td {
-      vertical-align: top; }
-    .about-me ul .table_desc, .about-me p .table_desc, .about-me table .table_desc {
-      padding-left: 20px;
-      padding-bottom: 5px; }
-    .about-me ul .table_date, .about-me p .table_date, .about-me table .table_date {
-      padding-top: 1px; }
+
+.Experiences {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  width: 497.28px; }
+
+.about-me .section, .Experiences .section {
+  margin: 50px 5px 10px 5px; }
+
+.about-me h1, .Experiences h1 {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: -8px;
+  border-top: 2px solid #333; }
+  .about-me h1 span, .Experiences h1 span {
+    position: relative;
+    top: -13px;
+    background-color: white;
+    padding-right: 5px; }
+
+.about-me ul, .about-me p, .about-me table, .about-me div, .Experiences ul, .Experiences p, .Experiences table, .Experiences div {
+  margin-top: 0px;
+  color: #333;
+  font-weight: 300; }
+  .about-me ul td, .about-me p td, .about-me table td, .about-me div td, .Experiences ul td, .Experiences p td, .Experiences table td, .Experiences div td {
+    vertical-align: top; }
+  .about-me ul .table_desc, .about-me p .table_desc, .about-me table .table_desc, .about-me div .table_desc, .Experiences ul .table_desc, .Experiences p .table_desc, .Experiences table .table_desc, .Experiences div .table_desc {
+    padding-left: 20px;
+    padding-bottom: 5px; }
+  .about-me ul .table_date, .about-me p .table_date, .about-me table .table_date, .about-me div .table_date, .Experiences ul .table_date, .Experiences p .table_date, .Experiences table .table_date, .Experiences div .table_date {
+    padding-top: 1px; }
+
+.about-me .exp_item, .Experiences .exp_item {
+  padding-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 30px; }
+  .about-me .exp_item .line_wrap, .Experiences .exp_item .line_wrap {
+    width: 200px; }
+    .about-me .exp_item .line_wrap .year_line, .Experiences .exp_item .line_wrap .year_line {
+      border-top: 3px dotted #999;
+      text-align: center;
+      margin-top: 14px;
+      margin-left: -5px;
+      margin-right: -5px;
+      margin-bottom: -8px; }
+      .about-me .exp_item .line_wrap .year_line .year, .Experiences .exp_item .line_wrap .year_line .year {
+        font-weight: 500;
+        position: relative;
+        top: -12px;
+        background-color: white;
+        padding-left: 5px;
+        padding-right: 5px; }
 
 .home-page {
   background-image: url("http://cdn.chongminggao.top/background/photo_1937x1453.jpg");
@@ -1465,7 +1504,7 @@ body {
   background-repeat: no-repeat;
   background-size: 520px;
   background-position: left bottom;
-  height: 930px; }
+  height: 1030px; }
 
 .posts {
   width: 960px;
