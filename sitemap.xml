@@ -1,74 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://yoursite.com/about/index.html</loc>
-    
-    <lastmod>2019-11-15T10:32:33.047Z</lastmod>
-    
+    <loc>https://marshalshuai.com/authors/admin/</loc>
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/05/08/TraEmbedding-DMKD/</loc>
-    
-    <lastmod>2019-11-15T10:32:33.046Z</lastmod>
-    
+    <loc>https://marshalshuai.com/authors/</loc>
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/05/08/Junliang-ICDM19/</loc>
-    
-    <lastmod>2019-11-15T10:32:32.943Z</lastmod>
-    
+    <loc>https://marshalshuai.com/categories/</loc>
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/05/08/SC-Zhang/</loc>
-    
-    <lastmod>2019-11-15T10:32:32.942Z</lastmod>
-    
+    <loc>https://marshalshuai.com/</loc>
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/05/08/SemiSync-Zhang/</loc>
-    
-    <lastmod>2019-11-15T10:32:32.942Z</lastmod>
-    
+    <loc>https://marshalshuai.com/post/</loc>
   </url>
   
   <url>
-    <loc>http://yoursite.com/2019/01/11/BLOMA-DASFAA/</loc>
-    
-    <lastmod>2019-11-15T10:32:32.941Z</lastmod>
-    
+    <loc>https://marshalshuai.com/publication_types/</loc>
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/05/08/AntClu-Zhao/</loc>
-    
-    <lastmod>2019-11-15T10:32:32.801Z</lastmod>
-    
+    <loc>https://marshalshuai.com/publication/</loc>
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/05/08/CoSync-ICDM/</loc>
-    
-    <lastmod>2019-11-15T10:32:32.800Z</lastmod>
-    
+    <loc>https://marshalshuai.com/talk/</loc>
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/05/08/TraCompression-KBS/</loc>
-    
-    <lastmod>2019-11-15T10:32:32.799Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/research/index.html</loc>
-    
-    <lastmod>2019-11-15T10:32:32.734Z</lastmod>
-    
+    <loc>https://marshalshuai.com/tags/</loc>
   </url>
   
 </urlset>
