@@ -2,15 +2,138 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | Marshalshuai</title>
-    <link>https://marshalshuai.com/publication/</link>
-      <atom:link href="https://marshalshuai.com/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://luciferder.github.io/publication/</link>
+      <atom:link href="https://luciferder.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 08 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://marshalshuai.com/img/icon-192.png</url>
+      <url>https://luciferder.github.io/img/icon-192.png</url>
       <title>Publications</title>
-      <link>https://marshalshuai.com/publication/</link>
+      <link>https://luciferder.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>A two-stage multi-task learning-based method for selective unsupervised domain adaptation</title>
+      <link>https://luciferder.github.io/publication/icdm_dai/</link>
+      <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://luciferder.github.io/publication/icdm_dai/</guid>
+      <description>
+
+&lt;h4 id=&#34;yong-dai-jian-zhang-u-shuai-yuan-u-zenglin-xu&#34;&gt;Yong Dai, Jian Zhang, &lt;strong&gt;&lt;u&gt;Shuai Yuan&lt;/u&gt;&lt;/strong&gt;, Zenglin Xu&lt;/h4&gt;
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://luciferder.github.io/img/Two-stage.png&#34; &gt;
+&lt;img src=&#34;https://luciferder.github.io/img/Two-stage.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;&lt;abstract&gt;In recent years, clustering trajectory data has been extensively explored to discover similar patterns of moving objects. Existing approaches, often cluster whole life-span trajectories into several groups according to some trajectory similarities such as dynamic time warping and edit distance. However, the trajectory of a given moving object is dynamic and evolved over time. Exploring the dynamic grouping patterns of moving objects (e.g., the expanding, shrinking, emerging or disappearing of clusters) over time thus offers a more dedicated venue to analyze the evolved moving patterns. To address this problem, in this paper, we propose a new any-time trajectory clustering algorithm, called AntClu, building upon the concepts of automatic dynamic trend representation and density-based online clustering. The basic idea is to learn a dynamic representation for each trajectory to capture “current trend”, and then cluster these “trends” in an online setting. Therefore, AntClu is capable of clustering trajectories at any time, and time-changing clusters are available whenever the request comes. More importantly, unlike traditional data stream clustering approaches or online learning, AntClu is also independent of time-window. The experimental results on real-world data sets further demonstrate its effectiveness and efficiency.&lt;/abstract&gt;&lt;/p&gt;
+
+&lt;div&gt;&lt;inf&gt;Accepted by **ICDM&#39;19 workshop**. &lt;/inf&gt;&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>BLOMA:Explain Collaborative Filtering via Boosted Local Rank-One Matrix Approximation</title>
+      <link>https://luciferder.github.io/publication/bloma-dasfaa/</link>
+      <pubDate>Fri, 11 Jan 2019 14:04:58 +0000</pubDate>
+      <guid>https://luciferder.github.io/publication/bloma-dasfaa/</guid>
+      <description>
+
+&lt;h4 id=&#34;chongming-gao-u-shuai-yuan-u-zhong-zhang-hongzhi-yin-junming-shao&#34;&gt;Chongming Gao, &lt;strong&gt;&lt;u&gt;Shuai Yuan&lt;/u&gt;&lt;/strong&gt;,  Zhong Zhang, Hongzhi Yin, Junming Shao&lt;/h4&gt;
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://luciferder.github.io/img/BLOMA.png&#34; &gt;
+&lt;img src=&#34;https://luciferder.github.io/img/BLOMA.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;&lt;abstract&gt;Matrix Approximation (MA) is a powerful technique in context-aware recommendation systems. By exploiting both the rating data and auxiliary social/item networks, it represents the users and items as well-regularized low-rank latent factors so as to capture user preferences and item attributes. However, there are two main problems in the prevalent MA framework. The most urgent one is that the latent factor is out of explanation, which hampers the understanding of the reasons behind recommendations. Besides, traditional MA methods produce user/item factors globally, which fails to capture the idiosyncrasies of users/items. In this paper, we propose a model called Boosted Local rank-One Matrix Approximation (BLOMA). The core idea is to locally and sequentially approximate the residual matrix (which represents the unexplained part obtained from previous stage) by rank-one sub-matrix. By leveraging social networks and item relationships, the sub-matrix with distinct topic is easily extracted. The experiments show our method has good explanations that other methods never have. Meanwhile, by comparing with state-of-the-art algorithms, we show our model has well-matched prediction accuracy.&lt;/abstract&gt;&lt;/p&gt;
+
+&lt;div&gt;&lt;inf&gt;Accepted by **DASFAA&#39;19**. &lt;attached&gt;&lt;/attached&gt;&lt;/inf&gt;&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Association Study of Alzheimer&#39;s Disease with Tree-guided Sparse Canonical Correlation Analysis</title>
+      <link>https://luciferder.github.io/publication/association-zhou/</link>
+      <pubDate>Tue, 08 May 2018 14:04:58 +0000</pubDate>
+      <guid>https://luciferder.github.io/publication/association-zhou/</guid>
+      <description>
+
+&lt;h4 id=&#34;shangchen-zhou-u-shuai-yuan-u-zhizhou-zhang-zenglin-xu&#34;&gt;Shangchen Zhou, &lt;strong&gt;&lt;u&gt;Shuai Yuan&lt;/u&gt;&lt;/strong&gt;,  Zhizhou Zhang, Zenglin Xu&lt;/h4&gt;
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://luciferder.github.io/img/tree-based_CCA.png&#34; &gt;
+&lt;img src=&#34;https://luciferder.github.io/img/tree-based_CCA.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;&lt;abstract&gt;We consider the problem of finding the sparse associations between two sources of data, for example the sparse association between genetic variations (e.g., single nucleotide polymorphisms, SNPs) and phenotypical features (e.g., magnetic resonance imaging, MRI) in the study of Alzheimer’s disease (AD). Despite the success of Canonical Correlation Analysis (CCA) based its sparse variants in a number of applications, they usually neglect the underlying natural tree structures SNPs and MRI data. Specifically, the whole candidate set, genes, SNPs of gene form a path of tree structure in SNPs data, and the whole image, regions of image, features of region form a path of tree structure in the MRI data. In order to model the tree structure of features in both sources of data, in this paper, we propose a Tree-guided Sparse Canonical Correlation Analysis (TSCCA). The proposed model equips CCA with special mixed-norm regularization terms in order to model the underlying multilevel tree structures among both the inputs and outputs. To solve the resulted complicated optimization problem, we introduce an efficient iterative algorithm for TSCCA by rewriting tree-structured regularization into the common form of overlapping group lasso. To evaluate the proposed model, we have designed the simulation study and real world study respectively on Alzheimer’s disease. Experimental results on the simulation study have shown that the proposed method outperforms CCA with Lasso and group Lasso. The real world study on Alzheimer’s disease has shown that our model can find biologically meaningful associations between SNPs and MRI features.  &lt;/abstract&gt;&lt;/p&gt;
+
+&lt;div&gt;&lt;inf&gt;Accepted by **ICONIP&#39;18**. &lt;/inf&gt;&lt;/div&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
